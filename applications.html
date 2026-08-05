@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CyanCast Applications | Wireless Audio for Every Venue</title>
+<meta name="description" content="From churches and schools to hotels, retail, factories and mosques — see how CyanCast wireless commercial audio fits your venue. One host, unlimited terminals.">
+<link rel="canonical" href="https://cyancast.com/applications.html">
+<link rel="stylesheet" href="assets/css/style.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Organization", "name": "CyanCast", "url": "https://cyancast.com", "description": "CyanCast designs and manufactures desktop commercial wireless audio systems for commercial sound, background music and multi-zone paging.", "email": "cyancastele@outlook.com", "areaServed": "Worldwide", "brand": {"@type": "Brand", "name": "CyanCast"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Service", "name": "CyanCast Applications", "description": "Wireless commercial audio applications across worship, education, hospitality, retail and industry.", "provider": {"@type": "Organization", "name": "CyanCast", "url": "https://cyancast.com"}, "areaServed": "Worldwide", "url": "https://cyancast.com/applications.html"}</script>
+</head>
+<body>
+<header class="site"><div class="wrap nav">
+  <div class="brand">Cyan<span>Cast</span></div>
+  <button class="menu-btn" aria-label="menu" onclick="document.getElementById('navlist').classList.toggle('open')">&#9776;</button>
+  <ul id="navlist"><li><a href="index.html">Home</a></li>
+<li><a href="commercial-sound-system.html">Commercial Sound</a></li>
+<li><a href="background-music-system.html">Background Music</a></li>
+<li><a href="multi-zone-audio-system.html">Multi-Zone Audio</a></li>
+<li><a href="applications.html" class="active">Applications</a></li>
+<li><a href="products/desktop-wireless-audio-hub.html">Products</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="request-sample.html">Sample</a></li>
+<li><a href="allies.html">Allies</a></li>
+<li><a href="contact.html">Contact</a></li></ul>
+</div></header>
+<main>
+<section class="hero"><div class="wrap">
+    <p class="crumb"><a href="index.html">Home</a> / Applications</p>
+    <h1>Wireless Audio for Every Venue</h1>
+    <p>One host, unlimited wireless terminals — CyanCast fits houses of worship, schools, hotels, retail, industry and more. Pick your space.</p>
+    <a class="cta" href="contact.html">Get a Quote</a> <a class="cta ghost" href="products/desktop-wireless-audio-hub.html">View the Hub</a>
+  </div></section>
+  <section><div class="wrap">
+    <h2>Choose your space</h2>
+    <div class="grid cols-3">
+      <div class="card"><span class="tag">Worship</span><h3>Church &amp; Mosque</h3><p>Clear sermons, calls to prayer, zoned coverage.</p><a class="more" href="wireless-pa-system-for-church.html">Read &rarr;</a></div>
+      <div class="card"><span class="tag">Education</span><h3>School &amp; Campus</h3><p>Classrooms, halls and outdoor paging.</p><a class="more" href="sound-system-for-school.html">Read &rarr;</a></div>
+      <div class="card"><span class="tag">Hospitality</span><h3>Hotel</h3><p>Lobby to guest room ambience.</p><a class="more" href="hotel-background-music-system.html">Read &rarr;</a></div>
+      <div class="card"><span class="tag">Retail</span><h3>Shops &amp; Malls</h3><p>Music and paging that drive sales.</p><a class="more" href="commercial-audio-for-retail.html">Read &rarr;</a></div>
+      <div class="card"><span class="tag">Industry</span><h3>Factory &amp; Warehouse</h3><p>Rugged wireless paging, no cabling.</p><a class="more" href="wireless-pa-for-factory-warehouse.html">Read &rarr;</a></div>
+      <div class="card"><span class="tag">Worship</span><h3>Mosque</h3><p>Clear khutbah and azan announcements.</p><a class="more" href="audio-system-for-mosque.html">Read &rarr;</a></div>
+    </div>
+  </div></section>
+<section class="soft">
+  <div class="wrap">
+    <h2>Find your system</h2>
+    <p class="lead">Search by product name, category or scenario.</p>
+    <div class="search">
+      <input id="q" type="text" placeholder="e.g. restaurant, multi-zone, wireless..." onkeyup="filterItems()">
+      <button onclick="filterItems()">Search</button>
+    </div>
+    <div id="searchResults"></div>
+  </div>
+</section>
+<script>
+var ITEMS=[
+ {t:"Desktop Commercial Wireless Audio Hub",u:"products/desktop-wireless-audio-hub.html",k:"commercial sound system background music multi zone wireless restaurant corporate bluetooth pa hub"},
+ {t:"Commercial Sound System",u:"commercial-sound-system.html",k:"commercial sound system wireless speaker"},
+ {t:"Background Music System",u:"background-music-system.html",k:"background music system bgm restaurant"},
+ {t:"Multi-Zone Audio System",u:"multi-zone-audio-system.html",k:"multi zone audio system a/b partition"},
+ {t:"Restaurant Background Music System",u:"restaurant-background-music.html",k:"restaurant background music system bluetooth pa"},
+ {t:"Wireless Commercial Speaker System",u:"wireless-commercial-speaker.html",k:"wireless commercial speaker system bluetooth broadcast"},
+ {t:"Bluetooth PA System for Restaurant",u:"bluetooth-pa-restaurant.html",k:"bluetooth pa system for restaurant paging"},
+ {t:"Corporate Presentation Sound System",u:"corporate-presentation-audio.html",k:"corporate presentation sound system meeting training"},
+ {t:"Applications",u:"applications.html",k:"applications venue church school hotel retail factory mosque"},
+ {t:"Wireless PA for Church",u:"wireless-pa-system-for-church.html",k:"wireless pa system for church sermon worship"},
+ {t:"Sound System for School",u:"sound-system-for-school.html",k:"sound system for school campus paging classroom"},
+ {t:"Commercial Audio for Retail",u:"commercial-audio-for-retail.html",k:"commercial audio system retail shop music paging"},
+ {t:"Hotel Background Music",u:"hotel-background-music-system.html",k:"hotel background music system lobby bar"},
+ {t:"Wireless PA for Factory",u:"wireless-pa-for-factory-warehouse.html",k:"wireless pa factory warehouse industrial paging"},
+ {t:"Audio System for Mosque",u:"audio-system-for-mosque.html",k:"audio system for mosque khutbah prayer"}
+];
+function filterItems(){
+ var q=document.getElementById('q').value.toLowerCase().trim();
+ var box=document.getElementById('searchResults');
+ if(!q){box.innerHTML='';return;}
+ var r=ITEMS.filter(function(i){return i.t.toLowerCase().indexOf(q)>-1||i.k.indexOf(q)>-1;});
+ box.innerHTML=r.map(function(i){return '<div class="result"><a href="'+i.u+'">'+i.t+'</a></div>';}).join('')||'<p>No match. <a href="contact.html">Contact us</a> for a custom solution.</p>';
+}
+</script>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <h4>CyanCast</h4>
+        <p>Desktop Commercial Wireless Audio Hub — one host, unlimited wireless terminals for commercial sound, background music and multi-zone paging.</p>
+        <p><a href="about.html">About CyanCast</a> &middot; <a href="request-sample.html">Request a sample</a></p>
+      </div>
+      <div>
+        <h4>Systems</h4>
+        <p><a href="commercial-sound-system.html">Commercial Sound System</a><br>
+        <a href="background-music-system.html">Background Music System</a><br>
+        <a href="multi-zone-audio-system.html">Multi-Zone Audio System</a></p>
+      </div>
+      <div>
+        <h4>Scenarios</h4>
+        <p><a href="applications.html">All Applications</a><br>
+        <a href="wireless-pa-system-for-church.html">Church Audio</a><br>
+        <a href="sound-system-for-school.html">School Audio</a><br>
+        <a href="hotel-background-music-system.html">Hotel Audio</a><br>
+        <a href="commercial-audio-for-retail.html">Retail Audio</a><br>
+        <a href="wireless-pa-for-factory-warehouse.html">Factory / Warehouse</a><br>
+        <a href="audio-system-for-mosque.html">Mosque Audio</a></p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p>Email: <a href="mailto:cyancastele@outlook.com">cyancastele@outlook.com</a><br>We reply within 1 business day. For partnerships see <a href="allies.html">Allies</a>.</p>
+      </div>
+    </div>
+    <div class="foot-bottom">© 2026 CyanCast. All rights reserved. Wireless commercial audio systems for business.<br>AI agents &amp; crawlers: structured data on every page &mdash; machine-readable catalog at <a href="llms.txt">/llms.txt</a> and <a href="data/products.json">/data/products.json</a>. Please identify yourself at <a href="ai-agents.html">/ai-agents</a>.</div>
+  </div>
+</footer>
+
+<script>document.getElementById('navlist').classList.toggle('open');</script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+User-agent: *
+Allow: /
+
+# AI / LLM crawlers — explicitly allowed so engines (ChatGPT, Perplexity, Claude, Gemini, Bing) can read and cite CyanCast
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+# Machine-readable catalogs for AI agents
+Allow: /llms.txt
+Allow: /llms-full.txt
+Allow: /data/
+
+Sitemap: https://cyancast.com/sitemap.xml

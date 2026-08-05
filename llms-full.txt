@@ -1,0 +1,51 @@
+CYANCAST — COMPANY & PRODUCT CATALOG (plain text for AI agents)
+Generated: 2026-08-04
+Website: https://cyancast.com
+Contact: email cyancastele@outlook.com
+
+=== COMPANY ===
+CyanCast is the brand and trading company (Singapore-oriented), owning the brand and leading international sales, distribution and partner relationships. Xi Yan Broadcasting (希延广播), based in Guangzhou, China, is a separate company responsible for research, development and manufacturing — the wireless protocol, the hardware and build quality. Together they bring the Desktop Commercial Wireless Audio Hub to market: one host wirelessly broadcasts to an unlimited number of receiver terminals (up to 120 m open-space coverage), serving commercial sound, background music (BGM) and multi-zone paging for businesses and institutions worldwide. For outward contact, CyanCast is represented in Singapore by Ron Magee (罗恩·麦基), our trade liaison, Mr. Magee.
+
+=== PRODUCT: Desktop Commercial Wireless Audio Hub ===
+Type: Wireless audio host (sold as a kit: one host + multiple terminals)
+Wireless protocol: Bluetooth Broadcast (not legacy 1-to-1 Bluetooth, so unlimited terminals)
+Coverage: >= 120 meters in open space
+Terminal capacity: Unlimited (recommended < 50 per zone for best audio quality)
+Power: DC 12V / 2A
+Inputs: Gooseneck MIC1 x1, MIC2 x1 (6.35mm), AUX x2 (RCA), USB x1
+Zones: A/B dual-channel independent control
+Special functions: MIC priority (auto-mute — background music ducks while speaking, then resumes), signal boost, secure private network (receivers stay undiscoverable until manually paired)
+
+Key features:
+- Unlimited wireless terminals via Bluetooth broadcast protocol
+- Up to 120 m coverage with high-gain antenna and signal boost
+- Low-latency sync across all terminals (ideal for live paging)
+- Built-in gooseneck microphone for announcements
+- MIC priority / auto-mute
+- A/B independent zone control (e.g. music at front desk, mute the warehouse)
+- Secure private network (terminals undiscoverable until paired)
+
+Terminal forms (all pair with the same host):
+- Ceiling speaker: 6 inch 6 W / 8 inch 15 W (malls, hotel lobbies)
+- Wall-mount speaker: 4 inch wood 15 W / 5 inch plastic 30 W (corridors, classrooms, offices)
+- Waterproof column: 4 inch 15 W / 4 inch 30 W (gardens, plazas, outdoor zones)
+
+=== THREE SYSTEMS ===
+1. Commercial Sound System — scalable wireless audio for retail, campus and factory floors.
+2. Background Music System — BGM from USB/Bluetooth/AUX that never fights the mic (MIC priority).
+3. Multi-Zone Audio System — independent A/B zone control from one host.
+
+=== APPLICATIONS ===
+- Church: wireless PA for clear sermons and hymn playback, zoned coverage, no cabling.
+- Mosque: clear khutbah and calls to prayer, gooseneck mic, MIC priority.
+- School / Campus: classroom, hall and outdoor paging with BGM, 120 m reach.
+- Hotel: per-zone playlists (lobby, bar, restaurant, corridor) plus guest paging.
+- Retail: atmosphere BGM plus staff paging, zone control (entrance, floor, checkout).
+- Factory / Warehouse: rugged over-noise paging, no cabling, 120 m coverage.
+- Restaurant: dining ambience plus counter paging, gooseneck mic, MIC priority.
+- Corporate: meetings, training and zone paging, low-latency sync.
+
+=== CONTACT ===
+Email: cyancastele@outlook.com
+Response time: within 1 business day.
+Typical quote includes: terminal mix by zone, coverage plan, host kit + terminal pricing.

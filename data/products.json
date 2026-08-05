@@ -1,0 +1,111 @@
+{
+  "brand": "CyanCast",
+  "entities": {
+    "brandAndTrade": {
+      "name": "CyanCast",
+      "role": "Brand owner and trading company (Singapore-oriented)",
+      "responsibilities": [
+        "Brand",
+        "International sales",
+        "Distribution",
+        "Partner relationships"
+      ]
+    },
+    "manufacturing": {
+      "name": "Xi Yan Broadcasting (希延广播)",
+      "location": "Guangzhou, China",
+      "role": "R&D and manufacturing",
+      "responsibilities": [
+        "Research & development",
+        "Hardware design",
+        "Manufacturing",
+        "Quality"
+      ]
+    }
+  },
+  "url": "https://cyancast.com",
+  "generated": "2026-08-04",
+  "products": [
+    {
+      "name": "Desktop Commercial Wireless Audio Hub",
+      "type": "Wireless audio host (kit: host + terminals)",
+      "protocol": "Bluetooth Broadcast",
+      "coverage_m": 120,
+      "terminalCapacity": "Unlimited (recommended < 50 per zone for best quality)",
+      "power": "DC 12V / 2A",
+      "inputs": [
+        "Gooseneck MIC1 x1",
+        "MIC2 x1 (6.35mm)",
+        "AUX x2 (RCA)",
+        "USB x1"
+      ],
+      "zones": "A/B dual-channel independent control",
+      "features": [
+        "Unlimited wireless terminals (Bluetooth broadcast, not 1-to-1)",
+        "Up to 120 m open-space coverage",
+        "Low-latency sync across all terminals",
+        "MIC priority / auto-mute (music ducks while speaking)",
+        "A/B independent zone control",
+        "Secure private network (terminals undiscoverable until paired)"
+      ],
+      "terminals": [
+        {
+          "form": "Ceiling speaker",
+          "models": [
+            "6 inch 6 W",
+            "8 inch 15 W"
+          ]
+        },
+        {
+          "form": "Wall-mount speaker",
+          "models": [
+            "4 inch wood 15 W",
+            "5 inch plastic 30 W"
+          ]
+        },
+        {
+          "form": "Waterproof column",
+          "models": [
+            "4 inch 15 W",
+            "4 inch 30 W"
+          ]
+        }
+      ],
+      "applications": [
+        "church",
+        "mosque",
+        "school",
+        "hotel",
+        "retail",
+        "factory",
+        "warehouse",
+        "restaurant",
+        "corporate",
+        "campus"
+      ],
+      "url": "https://cyancast.com/products/desktop-wireless-audio-hub.html"
+    }
+  ],
+  "systems": [
+    {
+      "name": "Commercial Sound System",
+      "url": "https://cyancast.com/commercial-sound-system.html"
+    },
+    {
+      "name": "Background Music System",
+      "url": "https://cyancast.com/background-music-system.html"
+    },
+    {
+      "name": "Multi-Zone Audio System",
+      "url": "https://cyancast.com/multi-zone-audio-system.html"
+    }
+  ],
+  "contact": {
+    "email": "cyancastele@outlook.com",
+    "liaison": {
+      "name": "Ron Magee",
+      "cn": "罗恩·麦基",
+      "role": "Singapore trade liaison"
+    }
+  }
+}
