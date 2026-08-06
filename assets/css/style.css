@@ -174,3 +174,43 @@ footer.site .cols{display:grid;grid-template-columns:repeat(4,1fr);gap:28px}
 .gated{margin-top:24px;padding:22px;border:1px dashed var(--brand);border-radius:var(--radius);background:rgba(34,211,238,.05)}
 .gated h3{margin:0 0 8px;color:#fff;font-size:19px}
 .gated p{color:var(--muted);margin:0 0 14px;font-size:15px}
+
+/* Homepage rebuild (纲举目张) */
+.hero-home{
+  background-image:
+    linear-gradient(rgba(10,14,20,.55), rgba(10,14,20,.82)),
+    url('../img/hero-001.png');
+  background-size:cover;background-position:center;
+}
+.hero-home::after{display:none}
+.hero-home h1{font-size:clamp(30px,4.6vw,52px)}
+.hero-home p{font-size:20px}
+
+/* Product paste zone (swappable image — no full redesign needed) */
+.paste-zone{background:#fff;border:2px dashed var(--brand);border-radius:var(--radius);padding:20px;box-shadow:var(--shadow);position:relative}
+.paste-zone .tag-paste{position:absolute;top:-12px;left:18px;background:var(--bg);color:var(--brand);
+  font-size:12px;font-weight:700;padding:3px 10px;border:1px solid var(--brand);border-radius:999px}
+.paste-zone img{width:100%;border-radius:8px;display:block}
+.paste-zone .cap{margin-top:12px;font-size:13px;color:#33414f;text-align:center;line-height:1.5}
+
+/* Scenario cards with image (目) */
+.card.media{padding:0;overflow:hidden}
+.card.media .thumb{display:block;aspect-ratio:16/10;overflow:hidden;background:var(--bg-elev)}
+.card.media .thumb img{width:100%;height:100%;object-fit:cover;transition:transform .25s ease}
+.card.media:hover .thumb img{transform:scale(1.05)}
+.card.media .body{padding:20px 22px 24px}
+.card.media h3{margin:0 0 6px;font-size:19px;color:#fff}
+.card.media p{margin:0;color:var(--muted);font-size:14.5px}
+.card.media a.more{display:inline-block;margin-top:12px;font-weight:700;font-size:14px;color:var(--brand)}
+
+/* Reliability band */
+.reliability{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;text-align:center}
+@media(max-width:860px){.reliability{grid-template-columns:1fr 1fr}}
+.reliability .num{font-size:clamp(26px,4vw,40px);font-weight:800;color:var(--brand);line-height:1}
+.reliability .lbl{color:var(--muted);font-size:14px;margin-top:8px}
+
+/* CTA band (contact placeholder for future quoting) */
+.cta-band{background:linear-gradient(135deg,var(--brand-dim),#0b3a47);border:1px solid var(--border);
+  border-radius:var(--radius);padding:42px;text-align:center}
+.cta-band h2{color:#fff}
+.cta-band p{color:#cfe9f1;max-width:660px;margin:0 auto 22px;font-size:16px}
