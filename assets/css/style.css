@@ -40,6 +40,16 @@ header.site{position:sticky;top:0;z-index:50;background:rgba(10,14,20,.82);
 .nav a.active{color:var(--brand)}
 .nav a:hover{color:var(--brand);text-decoration:none}
 .menu-btn{display:none;background:none;border:0;font-size:24px;cursor:pointer;color:var(--text)}
+@media(max-width:860px){
+  .nav{position:relative}
+  .menu-btn{display:block}
+  .nav ul{position:absolute;top:64px;left:0;right:0;flex-direction:column;gap:0;
+    background:var(--bg-card);border-bottom:1px solid var(--border);
+    max-height:0;overflow:hidden;transition:max-height .25s ease}
+  .nav ul.open{max-height:460px;overflow:auto}
+  .nav ul li{border-top:1px solid var(--border);width:100%}
+  .nav ul li a{display:block;padding:13px 20px}
+}
 
 /* Hero */
 .hero{position:relative;padding:78px 0 58px;
