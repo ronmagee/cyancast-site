@@ -175,7 +175,7 @@ footer.site .cols{display:grid;grid-template-columns:repeat(4,1fr);gap:28px}
 .gated h3{margin:0 0 8px;color:#fff;font-size:19px}
 .gated p{color:var(--muted);margin:0 0 14px;font-size:15px}
 
-/* Homepage rebuild (纲举目张) */
+/* Homepage rebuild (outline-first layout) */
 .hero-home{
   background-image:
     linear-gradient(rgba(10,14,20,.55), rgba(10,14,20,.82)),
@@ -191,7 +191,7 @@ footer.site .cols{display:grid;grid-template-columns:repeat(4,1fr);gap:28px}
 .paste-zone img{width:100%;border-radius:10px;display:block}
 .paste-zone .cap{margin-top:14px;font-size:13px;color:var(--muted);text-align:center;line-height:1.5}
 
-/* Scenario cards with image (目) */
+/* Scenario cards with image (branches) */
 .card.media{padding:0;overflow:hidden}
 .card.media .thumb{display:block;aspect-ratio:16/10;overflow:hidden;background:var(--bg-elev)}
 .card.media .thumb img{width:100%;height:100%;object-fit:cover;transition:transform .25s ease}

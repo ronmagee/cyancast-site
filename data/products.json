@@ -12,7 +12,7 @@
       ]
     },
     "manufacturing": {
-      "name": "Xi Yan Broadcasting (希延广播)",
+      "name": "Xi Yan Broadcasting",
       "location": "Guangzhou, China",
       "role": "R&D and manufacturing",
       "responsibilities": [
@@ -104,7 +104,6 @@
     "email": "cyancastele@outlook.com",
     "liaison": {
       "name": "Ron Magee",
-      "cn": "罗恩·麦基",
       "role": "Singapore trade liaison"
     }
   }
