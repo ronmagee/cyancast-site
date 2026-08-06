@@ -186,12 +186,10 @@ footer.site .cols{display:grid;grid-template-columns:repeat(4,1fr);gap:28px}
 .hero-home h1{font-size:clamp(30px,4.6vw,52px)}
 .hero-home p{font-size:20px}
 
-/* Product paste zone (swappable image — no full redesign needed) */
-.paste-zone{background:#fff;border:2px dashed var(--brand);border-radius:var(--radius);padding:20px;box-shadow:var(--shadow);position:relative}
-.paste-zone .tag-paste{position:absolute;top:-12px;left:18px;background:var(--bg);color:var(--brand);
-  font-size:12px;font-weight:700;padding:3px 10px;border:1px solid var(--brand);border-radius:999px}
-.paste-zone img{width:100%;border-radius:8px;display:block}
-.paste-zone .cap{margin-top:12px;font-size:13px;color:#33414f;text-align:center;line-height:1.5}
+/* Product showcase panel (image file is swappable — no full redesign needed) */
+.paste-zone{background:#fff;border:1px solid var(--border);border-radius:var(--radius);padding:18px;box-shadow:var(--shadow);position:relative}
+.paste-zone img{width:100%;border-radius:10px;display:block}
+.paste-zone .cap{margin-top:14px;font-size:13px;color:var(--muted);text-align:center;line-height:1.5}
 
 /* Scenario cards with image (目) */
 .card.media{padding:0;overflow:hidden}
