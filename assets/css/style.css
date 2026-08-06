@@ -110,6 +110,12 @@ table.spec td:nth-child(2),table.spec td{font-family:"JetBrains Mono",ui-monospa
 .ph.sm{min-height:140px;font-size:13px}
 figure{margin:0}
 figcaption{font-size:13px;color:var(--muted);margin-top:8px;text-align:center}
+/* Scenario photo + caption */
+.scenario-split{display:grid;grid-template-columns:1.15fr .85fr;gap:30px;align-items:center}
+@media(max-width:860px){.scenario-split{grid-template-columns:1fr}}
+.shot{margin:0;border-radius:var(--radius);overflow:hidden;border:1px solid var(--border);box-shadow:var(--shadow);background:var(--bg-card)}
+.shot img{width:100%;display:block}
+.shot figcaption{font-size:13.5px;color:var(--muted);padding:12px 14px;background:var(--bg-card);border-top:1px solid var(--border);margin-top:0;text-align:left}
 
 /* Search */
 .search{display:flex;gap:10px;max-width:520px;margin:18px 0 8px}
