@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="CyanCast">
+  <title>CyanCast</title>
+  <defs>
+    <linearGradient id="cy" x1="15%" y1="0%" x2="85%" y2="100%">
+      <stop offset="0%" stop-color="#67e8f9"/>
+      <stop offset="55%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#0891b2"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" stroke="url(#cy)" stroke-linecap="round">
+    <path d="M 28.99 59 A 82 82 0 1 1 28.99 141" stroke-width="14"/>
+    <path d="M 49.77 71 A 58 58 0 1 1 49.77 129" stroke-width="12"/>
+    <path d="M 68.82 82 A 36 36 0 1 1 68.82 118" stroke-width="10"/>
+    <path d="M 85.84 92.5 A 16 16 0 1 1 85.84 107.5" stroke-width="8"/>
+  </g>
+  <circle cx="100" cy="100" r="6" fill="url(#cy)"/>
+</svg>
