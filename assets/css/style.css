@@ -31,7 +31,7 @@ header.site{position:sticky;top:0;z-index:50;background:rgba(10,14,20,.85);
   backdrop-filter:blur(10px);border-bottom:1px solid var(--border)}
 .nav{display:flex;align-items:center;justify-content:space-between;height:64px}
 .brand{display:inline-flex;align-items:center;gap:10px;font-family:'Inter','Inter var',system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI Variable','Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;font-weight:800;font-size:21px;letter-spacing:-0.025em;color:#fff;font-feature-settings:'ss01','cv11';text-decoration:none}
-.brand .logo-icon{width:30px;height:30px;flex-shrink:0;transition:transform .25s ease}
+.brand .logo-icon{height:30px;width:auto;flex-shrink:0;transition:transform .25s ease}
 .brand:hover .logo-icon{transform:rotate(-8deg) scale(1.06)}
 .brand .brand-text{display:inline-block}
 .brand .cyan{background:linear-gradient(135deg,#67e8f9 0%,#22d3ee 55%,#0891b2 100%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:transparent}
@@ -44,7 +44,7 @@ header.site{position:sticky;top:0;z-index:50;background:rgba(10,14,20,.85);
   .nav{position:relative}
   .menu-btn{display:block}
   .brand{font-size:18px;gap:8px}
-  .brand .logo-icon{width:26px;height:26px}
+  .brand .logo-icon{height:26px;width:auto}
   .nav ul{position:absolute;top:64px;left:0;right:0;flex-direction:column;gap:0;
     background:var(--bg-card);border-bottom:1px solid var(--border);
     max-height:0;overflow:hidden;transition:max-height .25s ease}
