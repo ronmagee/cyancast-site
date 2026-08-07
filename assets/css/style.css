@@ -199,6 +199,12 @@ footer.site .cols{display:grid;grid-template-columns:repeat(4,1fr);gap:28px}
 .pillar h3{font-size:16.5px;line-height:1.4;margin:0 0 8px;color:#fff}
 .pillar p{margin:0;font-size:14.5px}
 
+/* Works-with open standards chips */
+.workswith{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin-top:6px}
+.chip{display:inline-block;padding:10px 18px;border:1px solid var(--border);border-radius:999px;
+  background:var(--bg-card);color:var(--text);font-size:14.5px;font-weight:600}
+.chip:hover{border-color:var(--brand);color:var(--brand)}
+
 /* Scenario cards with image (branches) */
 .card.media{padding:0;overflow:hidden}
 .card.media .thumb{display:block;aspect-ratio:16/10;overflow:hidden;background:var(--bg-elev)}
